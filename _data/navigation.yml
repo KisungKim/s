@@ -1,6 +1,6 @@
 # Site navigation links
-
-- title:
-  url:
-  excerpt:
-  image:
+main:
+  - title: "Java"
+    url: /posts/java_programming
+    excerpt:
+    image:
