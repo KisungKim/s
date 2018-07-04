@@ -3,11 +3,12 @@ layout: default
 title: "Java TimeCheck App Implementation, very simple 01"
 ---
 
-Today implemented granting auto-userId and groupId for nickname(Constructor)
-This post is for testing and below is code-sample
-It will be update for korean ASAP!!
-Class is Group, Client, GroupManager, SystemManager, SystemMain...
-It's version for 0703 and its for android java code
+
+Today implemented granting auto-userId and groupId for nickname(Constructor)<br>
+This post is for testing and below is code-sample<br>
+It will be update for korean ASAP!!<br>
+Class is Group, Client, GroupManager, SystemManager, SystemMain...<br>
+It's version for 0703 and its for android java code<br>
 
 
 ```java
