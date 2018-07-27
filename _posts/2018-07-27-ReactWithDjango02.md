@@ -327,9 +327,10 @@ return render(requests, 'testhtml01.html', {})
 
 ```
 
-# [Project]/[Application]/templates/[html파일] 
+# [Project]/[Application]/templates/testhtml01.html
 
 ```
+
 <!DOCTYPE html>
 {% load render_bundle from webpack_loader %}
 <html>
@@ -342,6 +343,7 @@ return render(requests, 'testhtml01.html', {})
 {% render_bundle 'main' %}
 </body>
 </html>
+
 ```
 
 #  [Project]/[Application]/static/js/index.js를 작성해 줍니다
