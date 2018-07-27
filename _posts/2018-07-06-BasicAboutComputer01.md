@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "컴퓨터 공부, 어디부터 시작해야하나(1)"
+title: "컴퓨터 공부의 시작(1)"
 ---
 
 
-<code></code>
+<code>컴퓨터 공부할 때 알아야 할 내용은?</code>
 
 
 <br/>
