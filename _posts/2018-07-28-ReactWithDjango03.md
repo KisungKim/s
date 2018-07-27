@@ -90,23 +90,11 @@ return render(requests, 'testhtml01.html', {})
 ```
 
 # [Project]/[Application]/templates/testhtml01.html
-
-```
-
-<!DOCTYPE html>
-{% load render_bundle from webpack_loader %}
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Example</title>
-</head>
-<body>
-<div id="react"></div>
-{% render_bundle 'main' %}
-</body>
-</html>
-
-```
+포스팅상 문제때문에 코드를 분리하였습니다
+<br/><a href="https://medium.com/uva-mobile-devhub/set-up-react-in-your-django-project-with-webpack-4fe1f8455396">링크에서</a><br/> 
+'In your templates folder, add the following to a new or existing html file:'의 내용
+<br/>아래에 있는 코드를 붙여넣으면 됩니다
+<br/>혹시나 문제가 발생할 경우 첫 번째 라인과 두 번쨰 라인의 순서를 바꿔주세요
 
 #  [Project]/[Application]/static/js/index.js를 작성해 줍니다
 
