@@ -4,7 +4,7 @@ title: "장고와 리액트 연동하기(2)"
 ---
 
 > 매우 기초적인 장고와리액트 연동하기
-
+<code>포스팅 글입니다</code>
 <br/>
 <br/>
 <span style="background-color:yellow"><b> 제가 처음 따라해본 연동 튜토리얼입니다>> 
