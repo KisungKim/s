@@ -4,25 +4,6 @@ title: "장고와 리액트 연동하기(2)"
 ---
 
 > 매우 기초적인 장고와리액트 연동하기
-<code>포스팅 글입니다</code>
-<br/>
-<br/>
-<span style="background-color:yellow"><b> 제가 처음 따라해본 연동 튜토리얼입니다>> 
-</b></span>
-<a href="https://www.valentinog.com/blog/tutorial-api-django-rest-react/"> 리액트 튜토리얼(1)</a>
-<br/>
-<span style="background-color:green;color:white;"><b>
-본 포스팅의 기반이 되는 튜토리얼입니다>> 
-</b></span>
-<a href="https://medium.com/uva-mobile-devhub/set-up-react-in-your-django-project-with-webpack-4fe1f8455396"> 리액트 튜토리얼(2)</a>
-<br/>
-<br/>
-기타 개념에 대한 내용은 구글에 친절한 분이 많으니 검색해서 같은 글 몇번 보다 보면 이해가 될겁니다<br/>
-첫 번째 튜토리얼은 친절합니다. 왜 웹팩을 사용하는지 등 설명을 볼 수 있습니다<br/>
-그럼에도 불구하고 두 번째 튜토리얼을 따라한 이유는 앞으로 프로젝트에서 좀 더 raw하게,<br/>
-본인에 입맞에 맞추어 웹팩을 개발하는데에 도움이 될 것 같아서입니다<br/>
-거꾸로 말하면 첫 번째 튜토리얼의 경우 작성하신 분의 custom환경이 강하게 들어있는 느낌을 받았습니다.<br/>
-</section>
 
 ## 연동 시작하기 : 필요한 모듈 설치 & 환경설정
 
