@@ -50,13 +50,15 @@ root connection이 아닌 새로운 user를 만들고 그 user의 connection안�
 
 ![image4](https://drive.google.com/uc?id=150SAYD8cyYhLrwCbMdkQHVR-yzD2Rdxm)
 
+아래는 위의 ForPost의 connection에 account를 grant하는 모습입니다.
+
 ![image5](https://drive.google.com/uc?id=1c9Q-7SbNEkU8EmR7zelQk2BIFJVtHHuk)
 
 ## 3. 새롭게 생성된 connection내부에서 root유저와는 독립된 스키마를 생성
 
 ![image6](https://drive.google.com/uc?id=1O3EDatofOptc4fNsQILkGc2Pt6Bef0P5)
 
-이제 보시면 아까 root유저로 접근했을 때와는 다른 화면이 보입니다
+이제 보시면 아까 root유저로 접근했을 때와는 다른 화면이 보입니다. 이제 해당 connection을 장고와 연결시키면 됩니다
 
 
 <br/>
