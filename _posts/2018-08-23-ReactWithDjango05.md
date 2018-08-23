@@ -37,7 +37,7 @@ root connection이 아닌 새로운 user를 만들고 그 user의 connection안�
 
 ## 3. 새롭게 생성된 connection내부에서 root유저와는 독립된 스키마를 생성
 
-![test]({{ "/images/ForPost/screenshot.jpg" | absolute_url }})
+![test](https://drive.google.com/uc?id=1O3EDatofOptc4fNsQILkGc2Pt6Bef0P5)
 
 <br/>
 <br/>
