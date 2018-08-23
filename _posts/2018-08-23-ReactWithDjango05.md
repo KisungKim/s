@@ -34,17 +34,24 @@ root connection이 아닌 새로운 user를 만들고 그 user의 connection안�
 ## 1. root유저로 접속, 새로운 user을 생성
 
 맨 처음, root유저로 접속하셨다면 이전의 모든 스키마를 보실 수 있을 겁니다
+
 ![image1](https://drive.google.com/uc?id=1qKqyrDVwSCl34JnAERNBuFGcrGKEsQD_)
 
 이제 새로운 user을 생성하기 위해 다음의 화면에 들어가 new account를 만들어 줍니다.
+
 ![image2](https://drive.google.com/uc?id=1cNsZSw3v2_uqmU1lR4mPEunxhRxN9qzM)
+
+이때 Schema privileges를 설정해 주셔야 새롭게 만든 account가 query를 통해 스키마를 조작할 수 있습니다
 ![image3](https://drive.google.com/uc?id=16SKU0ML6Pz-TmUzwR46c_eRHjeI0lxjI)
 
 ## 2. 새로운 connection을 생성, 방금 만든 user을 그 connection의 id로 등록
 
 새로운 connection을 만들고 해당 connection에 접속할 수 있는 Accounts를 설정해 줍니다.
+
 ![image4](https://drive.google.com/uc?id=150SAYD8cyYhLrwCbMdkQHVR-yzD2Rdxm)
+
 ![image5](https://drive.google.com/uc?id=1c9Q-7SbNEkU8EmR7zelQk2BIFJVtHHuk)
+
 ## 3. 새롭게 생성된 connection내부에서 root유저와는 독립된 스키마를 생성
 
 ![image6](https://drive.google.com/uc?id=1O3EDatofOptc4fNsQILkGc2Pt6Bef0P5)
