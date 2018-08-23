@@ -36,7 +36,9 @@ root connection이 아닌 새로운 user를 만들고 그 user의 connection안�
 ## 2. 새로운 connection을 생성, 방금 만든 user을 그 connection의 id로 등록
 
 ## 3. 새롭게 생성된 connection내부에서 root유저와는 독립된 스키마를 생성
-<img style="width:300px;height:300px" src={{ "/images/ForPost/screenshot.jpg" | absolute_url }}/>
+
+![test]({{ "/images/ForPost/screenshot.jpg" | absolute_url }})
+
 <br/>
 <br/>
 
