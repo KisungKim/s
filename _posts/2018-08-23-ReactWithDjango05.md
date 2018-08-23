@@ -32,11 +32,11 @@ root connection이 아닌 새로운 user를 만들고 그 user의 connection안�
 <br/>
 
 ## 1. root유저로 접속, 새로운 user을 생성
-
+<>
 ## 2. 새로운 connection을 생성, 방금 만든 user을 그 connection의 id로 등록
 
 ## 3. 새롭게 생성된 connection내부에서 root유저와는 독립된 스키마를 생성
-
+<img style="width:300px;height:300px" src="https://github.com/KisungKim/scaryTonight/tree/master/images/ForPost/blank_page.png"/>
 <br/>
 <br/>
 
