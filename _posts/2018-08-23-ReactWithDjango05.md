@@ -32,12 +32,25 @@ root connection이 아닌 새로운 user를 만들고 그 user의 connection안�
 <br/>
 
 ## 1. root유저로 접속, 새로운 user을 생성
-<>
+
+맨 처음, root유저로 접속하셨다면 이전의 모든 스키마를 보실 수 있을 겁니다
+![image1](https://drive.google.com/uc?id=1qKqyrDVwSCl34JnAERNBuFGcrGKEsQD_)
+
+이제 새로운 user을 생성하기 위해 다음의 화면에 들어가 new account를 만들어 줍니다.
+![image2](https://drive.google.com/uc?id=1cNsZSw3v2_uqmU1lR4mPEunxhRxN9qzM)
+![image3](https://drive.google.com/uc?id=16SKU0ML6Pz-TmUzwR46c_eRHjeI0lxjI)
+
 ## 2. 새로운 connection을 생성, 방금 만든 user을 그 connection의 id로 등록
 
+새로운 connection을 만들고 해당 connection에 접속할 수 있는 Accounts를 설정해 줍니다.
+![image4](https://drive.google.com/uc?id=150SAYD8cyYhLrwCbMdkQHVR-yzD2Rdxm)
+![image5](https://drive.google.com/uc?id=1c9Q-7SbNEkU8EmR7zelQk2BIFJVtHHuk)
 ## 3. 새롭게 생성된 connection내부에서 root유저와는 독립된 스키마를 생성
 
-![test](https://drive.google.com/uc?id=1O3EDatofOptc4fNsQILkGc2Pt6Bef0P5)
+![image6](https://drive.google.com/uc?id=1O3EDatofOptc4fNsQILkGc2Pt6Bef0P5)
+
+이제 보시면 아까 root유저로 접근했을 때와는 다른 화면이 보입니다
+
 
 <br/>
 <br/>
