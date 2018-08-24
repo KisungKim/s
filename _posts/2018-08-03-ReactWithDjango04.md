@@ -56,3 +56,68 @@ from bs4 import BeautifulSoup
 # 라는 코드가 들어올 수 있습니다
 ```
 
+아래는 sample code입니다. 다음과 같은 create를 할 수 있습니다(말 그대로 급조한 sample code입니다.)
+
+```
+# [my_project:ex)local_testing]/[something_app:ex)app01]/getData.py
+
+import os
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'local_testing.settings')
+import django
+django.setup()
+
+from app01.models import Mise
+
+from bs4 import BeautifulSoup
+
+import requests
+import json
+
+...(중략)...
+
+url = url_prefix["station_measure"] + "serviceKey=" + service_key[0]
+sido_names = ["서울"]
+parsed_list = []
+
+for sido_name in sido_names:
+    params = {"numOfRows": 1000, "sidoName": sido_name}
+    res = requests.get(url, params=params)
+    content = BeautifulSoup(res.text, "html.parser")
+    content_type = ["stationname", "datatime", "so2value",
+        "covalue", "o3value", "no2value", "pm10value",
+        "khaivalue", "khaigrade", "so2grade",
+        "cograde", "o3grade", "no2grade", "pm10grade"]
+    for item in content.find_all("item"):
+        parsed_dict = {}
+        parsed_dict["sidoname"] = sido_name
+        for type in content_type:
+            parsed_dict[type] = item.find(type).string
+        haengjeong_nm = parsed_dict["sidoname"] + " " + parsed_dict["stationname"]
+        parsed_dict["lat"], parsed_dict["lng"] = naver_geo(haengjeong_nm)
+        mise_test = Mise(
+            stationname=parsed_dict["stationname"],
+            datatime=parsed_dict["datatime"],
+            so2value=parsed_dict["so2value"],
+            covalue=parsed_dict["covalue"],
+            o3value=parsed_dict["o3value"],
+            no2value=parsed_dict["no2value"],
+            pm10value=parsed_dict["pm10value"],
+            khaivalue=parsed_dict["khaivalue"],
+            khaigrade=parsed_dict["khaigrade"],
+            so2grade=parsed_dict["so2grade"],
+            cograde=parsed_dict["cograde"],
+            o3grade=parsed_dict["o3grade"],
+            no2grade=parsed_dict["no2grade"],
+            pm10grade=parsed_dict["pm10grade"],
+            lat=parsed_dict["lat"],
+            lng=parsed_dict["lng"]
+        )
+        parsed_list.append(mise_test)
+    querysets = Mise.objects.all()
+    querysets.delete()
+    Mise.objects.bulk_create(parsed_list)
+    print("insert finished...", len(parsed_list))
+
+```
+
+
