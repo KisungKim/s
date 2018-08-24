@@ -3,7 +3,7 @@
 title: "scaryTonight ver 0.2"
 description: "Blog written by Kisung Kim"
 logo: bio.png # 120x120 px default image used for Twitter summary card
-teaser: candle.png # 400x250 px default teaser image used in image archive grid
+teaser: abc.png # 400x250 px default teaser image used in image archive grid
 locale: en
 url: https://kisungkim.github.io/scaryTonight
 feed:
