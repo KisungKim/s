@@ -25,7 +25,7 @@ title: "장고와 리액트 연동하기(데이터베이스(1))"
 <b>첫 번째로</b> 
 root connection이 아닌 새로운 user를 만들고 그 user의 connection안에서 독립된 스키마를 만들어주셔야 합니다.
 <br/>
-사실 루트유저로 모든 것을 해도 돌아가는데 문제는 없지만 비유하자면, 회장님한테(root유저가) 경영부터(sys작업 등) 인턴잡무까업지(우리가 활용하려는 프로젝트의 db)를 모두 맡기는 꼴이 됩니다.
+사실 루트유저로 모든 것을 해도 돌아가는데 문제는 없지만 비유하자면, 회장님한테(root유저가) 경영부터(sys작업 등) 인턴잡무까지(우리가 활용하려는 프로젝트의 db)를 모두 맡기는 꼴이 됩니다.
 <br/>
 새로운 connection을 만들고 user를 만드는 순서는 다음과 같습니다
 <br/>
@@ -136,8 +136,8 @@ No migrations to apply.
 # 라는 의미입니다.
 
 # 이렇게 models.py를 수정해주고 makemigrations, migrate명령어를 활용하면,
-# 실제 mysql의 데이터베이스에는 [application_name]_[class_name], 즉 저의 경우에는
-# app01_sangga라는 이름의 테이블이 자동으로 생성됩니다.
+# 실제 해당 스키마에는 [application_name]_[class_name]라는 테이블,
+# 즉 저의 경우에는 app01_sangga라는 이름의 테이블이 자동으로 생성되었습니다
 
 # 추가 내용은 구글링을 참고하세요
 
