@@ -58,7 +58,7 @@ from bs4 import BeautifulSoup
 
 아래는 sample code입니다. 다음과 같은 create를 할 수 있습니다(말 그대로 급조한 sample code입니다.)
 
-```
+```python
 # [my_project:ex)local_testing]/[something_app:ex)app01]/getData.py
 
 import os
