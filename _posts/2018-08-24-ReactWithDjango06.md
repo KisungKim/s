@@ -5,18 +5,14 @@ title: "장고와 리액트 연동하기(Django&Django REST framework&ReactApp)"
 
 > 장고에 rest framework 설치하기 
 
-## 들어가며
+## 들어가며-기존
 
 <br/>
-쉽게 말해 원래는 아래와 같은 순서로 장고에서 db의 query를 사용할 수 있었습니다.
-<br/>
 
-## (기존)
-
-<br/>
 1. 장고와 데이터베이스를 연결합니다(장고와 리액트 연동하기(데이터베이스(1))참고)
 2. 장고 ORM (예: Something_class.objects.all())등을 통해 데이터를 받아옵니다
 3. views.py에서 받아온 데이터를 장고식 문법으로 템플릿에 넘겨주고 작업합니다
+
 <br/>
 사실 여기까지가 원래 기초적인 장고에서 Model-View-Template을 통해 데이터를 만져주는 과정입니다.
 <br/>
@@ -25,12 +21,14 @@ title: "장고와 리액트 연동하기(Django&Django REST framework&ReactApp)"
 ## 리액트와 장고
 
 <br/>
+
 1. 장고와 데이터베이스를 연결합니다
-2. 장고 ORM (예: Something_class.objects.all())등을 통해 데이터를 받아옵니다
+2. 장고 ORM (예: Something_class.objects.all())등을 통해 고데이터를 받아옵니다
 3. 받아온 데이터를 Django REST framework를 활용해 json객체로 만들어줍니다.
 4. json객체를 특정 url에 뿌려줍니다.
 5. React App에서 fetch를 통해 특정 url로부터 json객체를 받아옵니다.
 6. 받아온 데이터를 리액트식 문법으로 가공/작업합니다
+
 <br/>
 이번 포스팅은 어떻게 장고 REST framework의 환경을 설정하는지, 그리고 REST framework를 활용한 json객체로의 serialize는 어떻게 이루어지는지에 대한 내용입니다.
 <br/>
