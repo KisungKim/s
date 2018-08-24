@@ -243,4 +243,4 @@ render() {
 
 두 번째 페이지처럼 불러온다면 다음과 같은 화면을 볼 수 있습니다.
 
-![image01](https://drive.google.com/open?id=1KsHft1hJoUpUBrSbTNDjvvvT85VpO0fS)
+![image01](https://drive.google.com/uc?id=1KsHft1hJoUpUBrSbTNDjvvvT85VpO0fS)
