@@ -10,7 +10,9 @@ title: "장고와 리액트 연동하기(Django&Django REST framework&ReactApp)"
 <br/>
 쉽게 말해 원래는 아래와 같은 순서로 장고에서 db의 query를 사용할 수 있었습니다.
 <br/>
-(기존)
+
+## (기존)
+
 <br/>
 1. 장고와 데이터베이스를 연결합니다(장고와 리액트 연동하기(데이터베이스(1))참고)
 2. 장고 ORM (예: Something_class.objects.all())등을 통해 데이터를 받아옵니다
@@ -19,6 +21,9 @@ title: "장고와 리액트 연동하기(Django&Django REST framework&ReactApp)"
 사실 여기까지가 원래 기초적인 장고에서 Model-View-Template을 통해 데이터를 만져주는 과정입니다.
 <br/>
 하지만 리액트를 이용할 경우 살짝 순서가 바뀝니다.
+
+## 리액트와 장고
+
 <br/>
 1. 장고와 데이터베이스를 연결합니다
 2. 장고 ORM (예: Something_class.objects.all())등을 통해 데이터를 받아옵니다
