@@ -12,7 +12,7 @@ title: "리액트와 다음지도(ReactApp&Daum API)"
 <br/>
 다음 지도 api의 sample에는 html, js 코드밖에 없기에 리액트 코드로 구현한 기능을 공유합니다
 <br/>
-다음지도를 활용하여 웹어플리케이션의 구현하실 때 참고하시면 됩니
+다음지도를 활용하여 웹어플리케이션의 구현하실 때 참고하시면 됩니다
 
 1. 검색창을 활용해 지도 실행 및 이동시키기
 2. 현재 지도의 중심좌표를 기준으로 행정동 주소와 위도 경도를 받아오기
@@ -22,12 +22,11 @@ title: "리액트와 다음지도(ReactApp&Daum API)"
 
 <div style="color:blue;font-size:30px">
 <br/>
-더 자세한 내용은 아래 docs에 자세히 기술되어 있습니다
-<br/>
-<a href="http://apis.map.daum.net/">다음 지도 api 활용하기</a>
+더 자세한 내용은 다음docs에 자세히 기술되어 있습니다
+<a href="http://apis.map.daum.net/"> 다음 지도 api 활용하기</a>
 <br/>
 아래 깃허브 주소에서 실제로 구현한 코드를 참고하세요
-<a href="https://github.com/KisungKim/ReactWithDaumMap">구현한 코드 보기</a>
+<a href="https://github.com/KisungKim/ReactWithDaumMap"> 구현한 코드 보기</a>
 </div>
 
 ## 들어가며
