@@ -76,7 +76,7 @@ title: "리액트와 다음지도(ReactApp&Daum API)"
 > DaumMapComponent_createMap.js와  DaumMapComponent_resize.js 를 참고하세요
 
 다음 지도 docs : <a href="http://apis.map.daum.net/web/sample/mapRelayout/">이동하기</a>
-<br/>
+<br/>음
 구현 코드 : <a href="https://github.com/KisungKim/ReactWithDaumMap/blob/master/DaumMapComponent_resize.js">이동하기</a>
 
 ## 현재 지도를 static이미지로 받아오기
